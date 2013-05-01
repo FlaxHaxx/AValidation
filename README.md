@@ -2,7 +2,7 @@
 
 AValidation is a validation framework for Android.
 
-Start with the ["Getting started" guide](#gettingstarted) and then check out the [Java doc](http://www.blitter.se/avalidation/api/).
+Start with the ["Getting started" guide](#gettingstarted) and then check out the [Javadoc](http://www.blitter.se/avalidation/api/).
 
 -------------------------------------------------------------------
 
