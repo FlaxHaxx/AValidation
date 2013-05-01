@@ -62,7 +62,7 @@ TODO
 <a name="customvalidator"/>
 # Create a custom Validator
 
-Create a custom validator by extending the Validator class. Override the `validate` method and return null on successful validation or a String on validation error.
+Create a custom validator by implementing the `Validator` interface. Override the `validate` method and return null on successful validation or a String on validation error.
 
 This example shows how the `RequiredValidator` is implemented.
 
