@@ -1,4 +1,4 @@
-# About Avalidation
+# About AValidation
 
 AValidation is a validation framework for Android.
 
@@ -16,20 +16,20 @@ This is a guide to describe how to use AValidation when developing an Android ap
 ## Step 2: Add AValidation to your project
 Put the downloaded jar file in the "libs" directory of the android project.
 
-## Step 3: Create a Validator
+## Step 3: Create a `Validator`
 This example validates that a string has a max length of 10 characters.
 ```java
 StringValidator commentsValidator = new StringValidator(0, 10, null, resources.getString(R.string.comment_error_max_length));
 ```
 
-## Step 4: Add the validator to an `EditText`
+## Step 4: Add the `Validator` to an `EditText`
 ```java
 EditText editTextComment = (EditText) findViewById(R.id.editTextComment);
 ValidationUtil.validateOnChange(editTextComment, commentsValidator);
 ```
 
 <a name="availablevalidators"/>
-# Available validators
+# Available Validators
 
 ##### Table of Contents
 * [RequiredValidator](#requiredvalidator)
