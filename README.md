@@ -41,7 +41,7 @@ ValidationUtil.validateOnChange(editTextComment, commentsValidator);
 
 <a name="requiredvalidator"/>
 ## RequiredValidator
-Check that the a string is not empty.
+Check that a string is not empty.
 ```java
 new RequiredValidator(resources.getString(R.string.required_error));
 ```
