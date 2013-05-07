@@ -2,6 +2,8 @@
 
 AValidation is a validation framework for Android. AValidation is an easy way to validate an `EditText` when the content changes. An error icon and optional message will be displayed if there is a validation error.
 
+It can also compare the content of an `EditText` with content of another `EditText` when validating (see [ComparingMaxIntegerValidator](#comparingmaxintegervalidator)).
+
 The same validators can also be used to validate the entire form.
 
 Start with the ["Getting started" guide](#gettingstarted) and then check out the [Javadoc](http://www.blitter.se/avalidation/api/).
