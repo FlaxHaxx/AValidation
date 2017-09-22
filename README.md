@@ -6,9 +6,8 @@ It can also compare the content of an `EditText` with content of another `EditTe
 
 The same validators can also be used to validate the entire form.
 
-Start with the ["Getting started" guide](#gettingstarted) and then check out the [Javadoc](http://www.blitter.se/avalidation/api/).
+Start with the ["Getting started" guide](#getting-started-with-avalidation) and then check out the [Javadoc](http://www.blitter.se/avalidation/api/).
 
-<a name="gettingstarted"/>
 # Getting started with AValidation
 This is a guide to describe how to use AValidation when developing an Android application. The example use a simple StringValidator. See ["Different Validators"](#availablevalidators) for other validators or ["Create a Custom Validator"](#customvalidator) to create your own Validator.
 
